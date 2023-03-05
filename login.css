@@ -1,0 +1,100 @@
+
+.img1{
+	position: relative;
+	/*top: 250px;*/
+	margin-left: 80px;
+	padding: 70px;
+	transform: translate(-50% -50%);
+}
+.img2{
+	position: absolute;
+	bottom: 100px;
+	left: 200px;
+}
+.img2:hover{
+	transform: scale(1.1);
+}
+.input{
+	position: relative;
+	bottom: 400px;
+	left: 500px;
+}
+.lable{
+
+    float: left;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.input1{
+	margin-left: 30px;
+	width: 300px;
+	height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.checkbox{
+	margin-top: 30px;
+	margin-left: 110px;
+}
+.head{
+	position: absolute;
+    bottom: 600px;
+    left: 770px;
+    font-size: 30px;
+}
+.head:hover{
+	text-decoration: underline; color: red;
+}
+.login{
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #2471A3;
+	border: solid 2px #2471A3;
+	border-radius: 10px;
+	width: 250px;
+	/*height: 30px;*/
+	position: absolute;
+	bottom: 250px;
+	left: 780px;
+	margin-left: 10px;
+}
+.login:hover{
+	background-color: #7FB3D5 ;
+}
+.signup{
+	position: absolute;
+	bottom: 190px;
+	left: 820px;
+	margin-top:30px;
+}
+.hover:hover{
+	background-color:#7FB3D5;
+}
+.logo{
+	position: absolute;
+	bottom: 120px;
+	left: 840px;
+}
+.fa-brands{
+	margin-left: 25px;
+	font-size: 20px;
+}
+.fa-brands:hover{
+	transform: scale(1.5);
+}
+.bg{
+	background-image: url(https://prmceam.ac.in/wp-content/uploads/2017/05/background-learner1.jpg);
+	background-repeat: no-repeat;
+}
+body
+{
+	width: 1400px;
+	height: 600px;
+	margin-left: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}

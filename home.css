@@ -1,0 +1,130 @@
+.navi{
+	list-style-type: none;
+	display: flex;
+	margin-left: 150px;
+	position: relative;
+	top: 30px;
+}
+a{
+	padding-left: 50px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+a:hover{
+	text-decoration: underline;
+	color: white;
+}
+.search{
+	margin-left: 750px;
+	width: 350px;
+	height: 30px;
+	border-radius: 10px;
+	position: relative;
+	bottom: 10px;
+	float: left;
+}
+.logo{
+position: absolute;
+top: 8px;
+}
+.banner{
+	background-image:url(https://i.pinimg.com/originals/66/34/f6/6634f695ad53e003244d070dc995f819.jpg);
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.white{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	box-shadow: 5px 5px 5px 5px;
+}
+.white:hover{
+	transform: scale(1.2);
+}
+.text{
+	position: relative;
+	bottom: 400px;
+	left: 250px;
+}
+.discover {
+	border: solid 2px #950A01;
+	background-color: #950A01; width: 200px;
+	position: relative;
+	bottom: 390px;
+	left: 270px;
+	border-radius: 10px;
+}
+.font{
+	position: relative;
+	bottom: 250px;
+	text-align: center;
+}
+.nav2{
+	list-style-type: none;
+	display: flex;
+	position: relative;
+	bottom: 220px;
+	left: 390px;
+}
+.caption{
+	position: relative;
+	bottom: 870px;
+	left: 800px;
+	font-size: 70px;
+	color: #000000;
+	font-family: fantasy;
+}
+.sofa{
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://img.freepik.com/free-photo/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_41470-1528.jpg");
+	height: 1200px;
+	background-size: cover;
+	position: relative;
+	bottom: 872px;
+	z-index: -1;
+}
+.wall{
+	display: flex;
+	position: relative;
+	bottom: 1750px;
+}
+.wall1{
+	margin-left: 100px;
+	border-radius: 10px;
+}
+.wall1:hover{
+	transform: scale(1.2);
+}
+.drop{
+	position: relative;
+	bottom: 1400px;
+	display: none;
+}
+.wallimg{
+	position: relative;
+	bottom: 1650px;
+	left: 140px;
+
+}
+.wall2{
+	margin-left: 150px;
+	border-radius: 10px;
+}
+.wall2:hover{
+	transform: scale(1.2);
+}
+.needls{
+
+	position: relative;
+	right: 20px;
+	bottom: 10px;
+}
+body
+{
+	width: 1400px;
+	height: 1000px;
+	margin-left: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+
+}
